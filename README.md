@@ -28,7 +28,7 @@ PARAMETERS
 
 TO GENERATE TOKEN
 ```
-rub UrlSigning.php -s 'http' -r '12345.r.cdnsun.net' -p '/images/photo.jpeg' -k 'jfXNDdkOp2' -e 1333497600 -i '1.2.3.4'
+ruby UrlSigning.php -s 'http' -r '12345.r.cdnsun.net' -p '/images/photo.jpeg' -k 'jfXNDdkOp2' -e 1333497600 -i '1.2.3.4'
 ```
 Sample Output:
 ```
